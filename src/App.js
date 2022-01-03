@@ -1,11 +1,10 @@
 import './App.css';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline text-blue-300">
-        Hello world!
-      </h1>
+      <HomePage />
     </div>
   );
 }
